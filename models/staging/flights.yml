@@ -1,10 +1,15 @@
-models:
+groups:
+  - name: operations
+    owner:
+      email: operations@jaffleshop.com
+      slack: operations-data
+      github: operations-data-team
 
-  
+models: 
   - name: stg_flight_location
     description: staging model for our flight location 
-    group: operations
-    access: public 
+    config:
+      group: operations
     columns:
       - name: primary_key
         tests:
