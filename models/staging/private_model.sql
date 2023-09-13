@@ -1,1 +1,1 @@
-select 1 as foo
+    select * from {{ source('flight_location', 'url_streaming_table') }}
