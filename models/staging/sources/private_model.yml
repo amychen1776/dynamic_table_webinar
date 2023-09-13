@@ -1,0 +1,4 @@
+models:
+  - name: private_model
+    description: demo of a private model
+    access: private

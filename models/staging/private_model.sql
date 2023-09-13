@@ -1,0 +1,1 @@
+    select * from {{ source('flight_location', 'url_streaming_table') }}
