@@ -1,0 +1,6 @@
+groups:
+  - name: operations
+    owner:
+      email: operations@jaffleshop.com
+      slack: operations-data
+      github: operations-data-team
