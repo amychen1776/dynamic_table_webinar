@@ -1,0 +1,7 @@
+sources:
+  - name: flight_location
+    database: vhol_eng_cdc
+    schema: eng
+    tables:
+      - name: url_streaming_table
+        description: Flight location data streaming in from local machine
