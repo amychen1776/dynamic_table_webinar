@@ -1,0 +1,10 @@
+models:
+  - name: stg_flight_information 
+    description: demo stg model of flight data 
+    config:
+      group: operations 
+    columns:
+      - name: primary_key
+        tests: 
+          - not_null
+          - unique 
