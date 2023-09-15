@@ -1,0 +1,10 @@
+models:
+  - name: stg_flight_locations
+    description: staging model for our flight location
+    config:
+        group: operations 
+    columns:
+      - name: primary_key
+        tests: 
+            - not_null
+            - unique
